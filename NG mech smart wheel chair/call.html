@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NG Call</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    
+    i{
+        color: #00E1FF;
+    }
+
+</style>
+<body>
+
+    <div class="call-screen">
+        <!-- Blurred Background -->
+        <div class="call-bg"></div> 
+
+        <div class="call-content">
+            <h2 class="call-status">Calling...</h2>
+            <div class="caller-details">
+                <img src="cal-person-img-removebg-preview.png" alt="Caller" class="caller-img">
+                <h3 class="caller-name" style="color: #00E1FF;">John Doe</h3>
+                <p class="caller-number">+91 98765 43210</p>
+                <p class="call-timer">00:32</p> <!-- Dummy Timer -->
+            </div>
+
+            <div class="call-actions">
+                <button class="call-btn"><i class="bi bi-mic-mute-fill"></i><span>Mute</span></button>
+                <button class="call-btn"><i class="bi bi-volume-up-fill"></i><span>Speaker</span></button>
+                <button class="call-btn"><i class="bi bi-camera-video-fill"></i><span>Video</span></button>
+            </div>
+
+            <a href="main.html"><button class="end-call-btn"><i class="bi bi-telephone-x-fill" style="color: #ffffff;"></i></button></a>
+        </div>
+    </div>
+
+</body>
+</html>
